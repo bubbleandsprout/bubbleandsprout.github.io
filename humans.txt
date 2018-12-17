@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+                            
+Karin Schrijvers -- author and owner - karin@bubbleandsprout.com -- instagra @bubbleandsprout
+Martin Driscoll -- builder -- martin@wts.services -- twitter @wonkothesaner
+
+# THANKS
+
+www.hexo.io
+Boostrap team @twitter
+
+# TECHNOLOGY COLOPHON
+
+Standards:    CSS3, HTML5, JavaScript
+Components:    GitHub Pages, Bootstrap, jQuery, Font Awesome, Tether, Normalize.css, hexo powered by Node.js
+Software: NetBeans IDE 
+                         
+Version 1.0 : 2017/02/14 

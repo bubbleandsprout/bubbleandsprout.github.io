@@ -1,0 +1,363 @@
+/*
+ * Globals
+ */
+
+body {
+    font-family: "Poppins", Open Sans, Verdana, sans-serif;
+    color: #000;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/*
+Blog Header
+*/
+
+.masthead-header a {
+    color: #000;
+    text-decoration: none;
+}
+.masthead-header a:hover, .masthead-header a:focus  {
+    text-decoration: none;
+    color: #000;
+}
+.masthead-header a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+/*
+ * Masthead for nav
+ */
+
+nav {
+    min-height: 60px;
+    margin-bottom:10px;
+}
+
+#main-nav-div {
+    border-width: 1px 0px 1px 0px;  
+    border-color: #ccc;
+    background-color: #fff;
+    border-style: solid;
+}
+.nav-item >a, .nav-item > a:hover, .nav-item > a:focus{
+    color: #000;
+}
+
+/* Nav links */
+.nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #000;
+}
+.nav-item:hover,
+.nav-item:focus {
+    text-decoration: underline;
+}
+
+/* Active state gets a caret at the bottom */
+.nav .active {
+    text-decoration: underline;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.blog-title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.blog-description {
+    font-size: 20px;
+    color: #000;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 20px 5px 5px 5px;
+    /*border-style: solid;*/
+    /*    border-width: 1px;
+        border-color: #f1f1f1;
+        background-color: #eeeeee;*/
+}
+
+
+
+/* Sidebar modules for boxing content */
+.blog-sidebar {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.sidebar-module {
+    padding: 15px;
+    margin: 0 -15px 15px;
+}
+
+
+.sidebar-module-inset {
+    padding: 15px 15px 0px 15px;
+    border-radius: 4px;
+}
+
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+    margin-bottom: 0;
+}
+
+.recent-posts {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* About */
+.about-image img {
+    max-width: 150px;
+}
+
+.about {
+    margin-bottom: 20px;
+    padding: 20px 10px 10px 10px;
+}
+
+
+.mail_to > a, .mail_to > a:hover, .mail_to > a:focus, .mail_to > a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* End of About */
+
+/* Pagination */
+.pager {
+    margin-bottom: 40px;
+    text-align: left;
+}
+.pager > li > a {
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 15px;
+    padding: 15px 10px 10px 10px;
+}
+.blog-post-title, .about-title {
+    margin-bottom: 5px;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999999;
+}
+
+.blog-post img {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+
+.full-post img {
+    display: inline;
+    max-width: 150px;
+    padding: 5px;
+}
+
+.other_post_wrapper {
+    border: 1px #ddd dotted;
+}
+
+/*
+Comments
+*/
+
+#comments-btn:focus {
+    box-shadow: none;
+}
+
+/*
+End of comments
+*/
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+    padding: 10px 0;
+    border-top: 1px solid black;
+    color: #000;
+    text-align: center;
+    margin-top:10px;
+    font-size : 10px;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+/*
+Tags and categories
+*/
+
+.blog-tags-container, .blog-categories-container {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.blog-tags-container span.glyphicon, .blog-categories-container span.glyphicon {
+    margin-right: 20px;
+}
+
+.category-page {
+    display: none;
+}
+
+/*
+Article Archive
+*/
+
+.blog-post-title-archive {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.blog-archive-title {
+    margin-bottom: 50px;
+}
+
+/*
+Blog post comments
+*/
+
+.blog-post-comments {
+    margin-top: 50px;
+}
+
+.read-more-btn {
+    border: solid 1px #ddd;
+}
+
+a.read-more-btn, a.read-more-btn:hover, a.read-more-btn:focus, a.read-more-btn:visited {
+    text-decoration: none;
+}
+
+a.page-link, a.page-link:hover, a.page-link:focus, a.page-link:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    #site-header {
+        font-size: 30px;
+    }
+    #site-subheader {
+        font-size: 16px;
+    }
+    #main-nav-div {
+        font-size: 12px;
+    }
+    h4, h5 {
+        font-size: 20px ;
+    }
+    #small_scr_12 {
+        font-size: 12px;
+    }
+}
+@media (max-width: 600px) {
+    #site-header {
+        font-size: 30px;
+    }
+    #site-subheader {
+        font-size: 16px;
+    }
+    #main-nav-div {
+        font-size: 12px;
+    }
+    h4, h5 {
+        font-size: 16px ;
+    }
+    p {
+        font-size:12px
+    }
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 440px) {
+    #site-header {
+        font-size: 28px;
+    }
+    #site-subheader {
+        font-size: 12px;
+    }
+    #main-nav-div {
+        font-size: 8px;
+    }
+
+}
+
+
+
+
+/*Instagram badge*/
+.ig-b- { 
+    display: inline-block; 
+}
+.ig-b- img { 
+    visibility: hidden; 
+}
+.ig-b-:hover { 
+    background-position: 0 -60px; 
+} 
+.ig-b-:active { 
+    background-position: 0 -120px; 
+}
+.ig-b-16 { 
+    width: 16px; height: 16px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-16.png) no-repeat 0 0; 
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+
+    .ig-b-16 { 
+        background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-16@2x.png); 
+        background-size: 60px 178px; } 
+}
